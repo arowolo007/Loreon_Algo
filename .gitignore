@@ -2,10 +2,12 @@
 __pycache__/
 *.py[cod]
 *$py.class
+talib_links.txt
 
 # C extensions
 *.so
-
+.env
+py_env/
 # Distribution / packaging
 .Python
 build/
