@@ -3,7 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 talib_links.txt
-
+*.csv
 # C extensions
 *.so
 .env
