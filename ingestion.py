@@ -13,7 +13,7 @@ def ingest_training_df(ticker = 'EURUSD=X'):
 
     df['action'] = (df['target'] > df['close']).astype(int)
     df = df[['open', 'high', 'low', 'close', 'target','action']]
-    df.dropna(inplace=True)
+    # df.dropna(inplace=True)
 
     # read data to safe location
     df.to_csv(f'data/{ticker}_{df.index.min().date()}:{df.index.max().date()}.csv')
