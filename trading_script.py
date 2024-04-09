@@ -66,7 +66,7 @@ def check_trade(currency_pair, sma_period):
     print('mail sent')
 # Main function to monitor trades
 def main():
-    currency_pairs = ["EURUSD=X", "GBPUSD=X"]  # Currency pairs to monitor
+    currency_pairs = ["EURUSD=X", "GBPUSD=X","AUDUSD=X"]  # Currency pairs to monitor
     sma_period = 24  # Period for SMA calculation (in hours)
 
     
