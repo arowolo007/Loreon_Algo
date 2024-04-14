@@ -10,7 +10,6 @@ import time
 def send_email(subject, body):
     sender_email = "loreon.damilola@gmail.com"
     receiver_email = ["arowolodamilola5@gmail.com", "loreon.bimbola@gmail.com", "loreon.ilerioluwa@gmail.com "]
-    password = "ovpddbcyzospznug"
 
     msg = EmailMessage()
     msg['Subject'] = subject
